@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.header{
+    background-image: url("game.webp");
+    background-size: contain;
+    height: 80px;
+    /* background-color: black;
+       color:black; */
+    font-size: 2rem;
+    font-weight: 600;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    gap:2rem;
+    
+
+}
+
+img{
+    height: 150px;
+    width: 150px;
+     border-radius:45px;
+    
+}
+.choice{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choice:hover{
+    background-color: black;
+    border:2px solid black;
+    border-radius:45px;
+    cursor: pointer;
+}
+/* score-board */
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem ;
+    margin-top: 2rem;
+    gap:5rem;
+}
+#user-score, #comp-score{
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* massage contenier */
+.msg-container{
+    margin-top: 3rem;
+}
+#msg{
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 25px;
+}
