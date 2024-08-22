@@ -19,7 +19,7 @@ const gencompChoice= ()=>{
 
 const drawGame=()=>{
     console.log("Game was Draw.");
-    msg.innerText="Game was Deaw.Play Again.";
+    msg.innerText="Game was Draw.Play Again.";
     msg.style.backgroundColor="black";
 }
 
